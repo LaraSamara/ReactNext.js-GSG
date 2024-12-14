@@ -1,0 +1,8 @@
+div{
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
