@@ -1,0 +1,30 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.app h1,
+.app .total{
+  color:palevioletred;
+}
+.app .total{
+  margin-bottom: 10px;
+}
+.students{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  margin: 0 10px;
+  background-color: #fff;
+  color: palevioletred;
+}
