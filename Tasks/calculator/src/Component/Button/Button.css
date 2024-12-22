@@ -1,0 +1,15 @@
+button{
+    background: rgb(190,153,140);
+    margin: 5px;
+    font-size: 18px;
+    width: calc(100%/3);
+    transition: all ease 0.3s;
+}
+button:hover{
+    border: none;
+    transform: scale(1.02);
+}
+button.equal{
+    width: calc((100%/3)*2);
+    background: rgb(101,102,172);
+}
