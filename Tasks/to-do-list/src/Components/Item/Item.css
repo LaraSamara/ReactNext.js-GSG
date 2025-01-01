@@ -1,0 +1,32 @@
+.item{
+    padding: 15px;
+    background-color: #E9EED9;
+    color: #123524;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.item .taskItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item .taskItem .taskInfo{
+    display: flex;
+    align-items: center;
+}
+.item .taskItem input{
+    margin-right: 10px;
+}
+.item .taskItem label{
+    font-size: 20px;
+    cursor: pointer;
+}
+.trash{
+    cursor: pointer;
+}

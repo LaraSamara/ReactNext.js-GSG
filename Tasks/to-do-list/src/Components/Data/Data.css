@@ -1,0 +1,16 @@
+.informations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.informations .data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.informations .data b{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
