@@ -1,4 +1,3 @@
-import React from 'react'
 import { IItem } from '../../assets/Type.tsx';
 import './Data.css';
 interface IProps{

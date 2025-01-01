@@ -1,4 +1,3 @@
-import React from 'react'
 import Item from '../Item/Item.tsx'
 import { IItem } from '../../assets/Type.tsx'
 import './List.css';

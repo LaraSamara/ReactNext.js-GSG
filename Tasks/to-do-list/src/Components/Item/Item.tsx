@@ -1,4 +1,3 @@
-import React from 'react'
 import {Trash, BatteryWarning} from '@phosphor-icons/react';
 import { IItem } from '../../assets/Type.tsx';
 import './Item.css';

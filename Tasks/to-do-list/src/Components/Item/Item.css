@@ -23,6 +23,9 @@
 .item .taskItem input{
     margin-right: 10px;
 }
+.item .taskItem input:checked~ label{
+    text-decoration: line-through;
+}
 .item .taskItem label{
     font-size: 20px;
     cursor: pointer;
