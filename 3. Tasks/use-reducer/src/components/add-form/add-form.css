@@ -1,0 +1,72 @@
+.wrapper.addForm.closed {
+  max-height: 32px;
+  overflow: hidden;
+}
+
+.wrapper.addForm.open {
+  overflow: hidden;
+  max-height: 1000px;
+}
+
+.wrapper.addForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 30px;
+  border-right: 3px solid gray;
+  border-radius: 4px;
+  padding-right: 5px;
+  background-color: #fff6eb;
+  transition: 200ms max-height ease-in;
+}
+
+.wrapper.addForm .input {
+  display: flex;
+  column-gap: 10px;
+}
+
+.wrapper.addForm label {
+  min-width: 110px;
+  display: inline-block;
+  text-align: left;
+}
+
+.wrapper.addForm .Actions {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+
+.wrapper.addForm .addCourseForm form {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+
+.wrapper.addForm .addCourseForm ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
+.wrapper.addForm .report {
+  color: #ee5454;
+  text-align: left;
+  font-size: 12px;
+}
+
+.wrapper.addForm .report h4 {
+  margin: 0;
+}
+
+.wrapper.addForm .report p {
+  margin: 0;
+  line-height: 1em;
+}
+
+.wrapper.addForm .toggle-btn {
+  width: 150px;
+  margin-left: auto;
+}
