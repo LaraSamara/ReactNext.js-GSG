@@ -1,0 +1,19 @@
+.course-form{
+    margin: 20px 0;
+}
+form{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    margin: 20px 0;
+}
+.course-input{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.courses{
+    color: rgb(101, 189, 101);;
+}

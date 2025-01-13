@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { IStudent } from "../App.tsx";
-import CoursesList from "./CoursesList/CoursesList.Component.tsx";
+import { IStudent } from "../../App.tsx";
+import CoursesList from "../CoursesList/CoursesList.Component.tsx";
 import "./Student/Student.css";
 
 interface Iprops extends IStudent{
-
 }
+
 const Student = (props:Iprops) =>{
     const[absent, setAbsent] = useState(0);
     const AddAbsent = () =>{

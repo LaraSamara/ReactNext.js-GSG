@@ -1,6 +1,6 @@
 import { useState } from "react"
-import Student from "./Components/Student.Component.tsx";
 import "./App.css";
+import Student from "./Components/Student/Student.Component.tsx";
 export interface IStudent {
   Id: number;
   name: string;

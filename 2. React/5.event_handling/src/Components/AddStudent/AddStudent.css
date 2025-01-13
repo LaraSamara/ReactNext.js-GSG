@@ -1,0 +1,59 @@
+.forms{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(240, 227, 212);
+}
+.errors{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color:  rgb(101, 189, 101);
+}
+.input-form{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.checked-input{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin: 10px 0;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px
+}
+button,
+.button{
+    padding: 6px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(101, 189, 101);
+    background: #fff;
+    color: rgb(101, 189, 101);
+    cursor: pointer;
+}
+label{
+    color: rgb(101, 189, 101);
+}
+input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #fff;
+    outline: none;
+    border: 2px solid rgb(101, 189, 101);
+}
