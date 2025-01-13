@@ -4,7 +4,7 @@ import About from './screens/About.screen';
 import NotFound from './screens/NotFound.screen';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import StudentDetails from './screens/StudentDetails.screen';
-import { useState, useEffect, useReducer } from 'react';
+import {useEffect, useReducer } from 'react';
 import useLocalStorage from './hooks/local-storage.hook';
 import { IStudent } from './types';
 import AddStudent from './screens/AddStudent.screen';
@@ -20,27 +20,16 @@ function App() {
 
   useEffect(() => {
     dispatch({type: "INITIAL", payload: storedData})
-    // const stdList: IStudent[] = storedData || [];
-    // const totalAbs = stdList.reduce((prev, cur) => { return prev + cur.absents }, 0);
-    // setTotalAbsents(totalAbs);
-    // setStudentsList(stdList);
   }, [storedData]);
 
   const removeFirst = () => {
     dispatch({type: "REMOVE_FIRST", payload: null});
-    // const newList = [...studentsList];
-    // newList.shift();  
-    // setStudentsList(newList);
   }
   const handleAbsentChange = (id: string, change: number) => {
     dispatch({type: "CHANGE_ABSENT", payload: {id, change}});
-    // setTotalAbsents(totalAbsents + change);
-    // setStudentsList(studentsList.map(std => std.id === id ? { ...std, absents: std.absents + change } : std));
   }
-
   const handleAddStudent = (newStudent: IStudent) => {
     dispatch({type: "ADD_STUDENT", payload: newStudent});
-    // setStudentsList([newStudent, ...studentsList]);
   }
   return (
     <AuthProvider>
